@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -std=c++11  -shared -Wl,-soname,libgtest_main.so -o libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -L/home/shaoan/projects/slamEvaluation/build/gtest/src -lpthread libgtest.so -lpthread -Wl,-rpath,/home/shaoan/projects/slamEvaluation/build/gtest/src:/home/shaoan/projects/slamEvaluation/build/gtest 
